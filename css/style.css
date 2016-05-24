@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body, html{
+	background: #212121;
+	color: white;
+	font-family: sans-serif;
+	font-size: 32px;
+	text-align: center;
+}
+
+header{
+	background: yellow;
+	border-radius: 10px;
+	margin: .25em auto;
+	padding: .25em;
+	width: 80%;
+}
+
+nav{
+	background: orange;
+	width: 22.25%;
+}
+
+main{
+	background: green;
+	width: 58%;	
+}
+
+main, #principal{
+	border-radius: 10px;
+	display: inline-block;
+	height: 400px;
+	vertical-align: top;
+}
+
+.article1, .article2, .article3{
+	background: skyblue;
+	border-radius: 10px;
+	height: 70px;
+	margin: .70em auto;
+	padding: .25em;
+	width: 70%;
+} 
+
+footer{
+	background: pink;
+	border-radius: 10px;
+	margin: .25em auto;
+	padding: .25em;
+	width: 80%;
+}
+ 
+#contenedor{
+	border-radius: 10px;
+	width: 100%;
+}
+
